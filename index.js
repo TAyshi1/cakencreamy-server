@@ -9,8 +9,8 @@ app.use(cors())
 const bcrypt = require('bcrypt');
 const crypto = require('crypto');
 const SECRET_KEY = 'b9682406b6545de642ff8026527300b35ec4d70803b4fe40ce37c9ea292634bcb3829fad2e685531abc6bc15e6243f2e06e46e8d9c9c28a407c8f01af5761378';
-
-const uri = 'mongodb+srv://mohid10587:jUWk8Fjxf3UAqusZ@cluster0.aqkhuox.mongodb.net/?retryWrites=true&w=majority'
+// 
+const uri = 'mongodb+srv://ayshibd:wPqC1BZYFIniVFgC@cluster0.vowteu5.mongodb.net/?retryWrites=true&w=majority'
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 // Middleware to authenticate JWT token
